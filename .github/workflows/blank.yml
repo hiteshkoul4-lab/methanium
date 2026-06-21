@@ -31,5 +31,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: minecraft-mod-jar
-          path: build/libs/*.jar
+          path: build/libs/**/*.jar
         continue-on-error: true
